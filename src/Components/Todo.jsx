@@ -38,6 +38,7 @@ const Todo = () => {
       onChange={handleChange}
       className="name"
       />
+      <br/>
       <input 
       type="text"
       placeholder="Gender"
@@ -45,6 +46,7 @@ const Todo = () => {
       onChange={handleChange}
       className="gender"
       />
+      <br/>
       <input 
       type="text"
       placeholder="Department"
@@ -52,6 +54,7 @@ const Todo = () => {
       onChange={handleChange}
       className="department"
       />
+      <br/>
       <input 
       type="text"
       placeholder="role"
@@ -59,6 +62,7 @@ const Todo = () => {
       onChange={handleChange}
       className="department"
       />
+      <br/>
       <input 
       type="number"
       placeholder="Salary"
@@ -66,6 +70,7 @@ const Todo = () => {
       onChange={handleChange}
       className="salary"
       />
+      <br/>
       <input type="submit" value ="ADD EMPLOYEE" />
       </form>
       
